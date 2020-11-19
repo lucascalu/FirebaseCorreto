@@ -105,7 +105,7 @@ class HomePage extends StatelessWidget {
           content: Form(
             key: form,
             child: Container(
-              height: MediaQuery.of(context).size.height / 3,
+              //height: MediaQuery.of(context).size.height / 3,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
                       return null;
                     },
                   ),
-                  SizedBox(height: 80),
+                  SizedBox(height: 32),
                   Text('Descrição'),
                   TextFormField(
                     decoration: InputDecoration(
