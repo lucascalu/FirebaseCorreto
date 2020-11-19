@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
                       return null;
                     },
                   ),
-                  SizedBox(height: 20),
+                  SizedBox(height: 80),
                   Text('Descrição'),
                   TextFormField(
                     decoration: InputDecoration(
